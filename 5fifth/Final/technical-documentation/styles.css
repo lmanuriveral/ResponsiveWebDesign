@@ -1,0 +1,80 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+#navbar {
+    background-color: #3498db;
+    color: #fff;
+    padding: 1em;
+    width: 200px;
+}
+
+#navbar h1 {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2em;
+}
+
+.main-section {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    flex: 1;
+}
+
+header {
+    color: #3498db;
+    font-size: 1.5em;
+}
+
+article {
+    margin-top: 10px;
+}
+
+code {
+    background-color: #ecf0f1;
+    padding: 0.2em;
+    font-family: 'Courier New', monospace;
+}
+
+footer {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Media Query for screens with a maximum width of 600 pixels */
+@media only screen and (max-width: 600px) {
+    #navbar {
+        width: 100%; /* Make the navigation menu take up the full width */
+    }
+
+    li {
+        margin-bottom: 10px;
+    }
+}
